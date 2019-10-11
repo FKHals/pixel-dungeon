@@ -230,8 +230,6 @@ public abstract class Level implements Bundlable {
 		
 		weakFloorCreated = false;
 		
-		adjustMapSize();
-		
 		Collection<Bundlable> collection = bundle.getCollection( HEAPS );
 		for (Bundlable h : collection) {
 			Heap heap = (Heap)h;
